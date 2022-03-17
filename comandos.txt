@@ -1,0 +1,88 @@
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT
+$ git init
+Initialized empty Git repository in C:/Users/Joel/Documents/GIT/.git/
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+?? css/
+?? git_web.html
+?? js/
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git add git_web.html
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+A  git_web.html
+?? css/
+?? js/
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git config --global user.email "joel333b@yahoo.com.ar"
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git config --global user.name "Joel Martínez"
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git commit -m "17/03"
+[master (root-commit) 854d867] 17/03
+ 1 file changed, 9 insertions(+)
+ create mode 100644 git_web.html
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ status -s
+bash: status: command not found
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+?? css/
+?? js/
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+ M git_web.html
+?? css/
+?? js/
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git add git_web.html
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+M  git_web.html
+?? css/
+?? js/
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git commit -m "17/03 agregado h1 y p"
+[master 1481e9f] 17/03 agregado h1 y p
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git log --oneline
+1481e9f (HEAD -> master) 17/03 agregado h1 y p
+854d867 17/03
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git reset --hard 854d867
+HEAD is now at 854d867 17/03
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ status -s
+bash: status: command not found
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+?? css/
+?? js/
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git add .
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+A  comandos.txt
+A  css/git_web.css
+A  js/git_web.js
+
