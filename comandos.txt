@@ -86,3 +86,19 @@ A  comandos.txt
 A  css/git_web.css
 A  js/git_web.js
 
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git status -s
+AM comandos.txt
+AM css/git_web.css
+ M git_web.html
+A  js/git_web.js
+
+Joel@DESKTOP-HVKGRJE MINGW64 ~/Documents/GIT (master)
+$ git commit -am "h1 y fondo"
+[master 956e2a8] h1 y fondo
+ 4 files changed, 98 insertions(+), 1 deletion(-)
+ create mode 100644 comandos.txt
+ create mode 100644 css/git_web.css
+ create mode 100644 js/git_web.js
+
+
